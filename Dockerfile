@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17
 WORKDIR /app
 COPY CreateCustomer.jar app.jar
 EXPOSE 8081
